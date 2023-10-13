@@ -1,25 +1,14 @@
-/* Mobile styles */
-@media(max-width: 400px){
-html{
-	display: flex;
+body{
+	background:#415e3d;
 	margin: 0;
-    position: absolute;
+	padding: 0;
 }
-p{
-	justify-content: center;
+h1{
+	background: #588053;
 	text-align: center;
-}
-form{
-	background: white;
-	font-family: "consolas";
-	color:black;
-}
-}
-@media(max-width: 900px){
-html{
-	display: flex;
-	margin: 0;
-    position: absolute;
-	justify-content: center;
-	text-align: center;
+	margin-bottom: 20px;
+	padding: 10px;
+	font-family: OCR A Std, monospace;
+	font-size: 25px;
+	font-weight: bold;
 }
