@@ -102,3 +102,12 @@ h1{
 	font-family: OCR A Std, monospace;
 	font-size: 17px;
 }
+@media(max-width: 900px){
+/*html Styling*/
+html{
+	display: flex;
+	margin: 0;
+	position: absolute;
+	justify-content: center;
+	text-align: center;
+}
