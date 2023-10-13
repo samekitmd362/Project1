@@ -1,4 +1,5 @@
 body{
+	display: flex;
 	background:#415e3d;
 	margin: 0;
 	padding: 0;
@@ -8,7 +9,51 @@ h1{
 	text-align: center;
 	margin-bottom: 20px;
 	padding: 10px;
+	border: 2px solid;
 	font-family: OCR A Std, monospace;
 	font-size: 25px;
 	font-weight: bold;
+}
+#description{
+	background:#588053;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 1px #588053;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: center;
+	font-family: OCR A Std, monospace;
+	font-size: 17px;
+}
+#name{
+	background:#588053;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 300px;
+	margin-right: 300px;
+	border: 1px #588053;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: center;
+	font-family: OCR A Std, monospace;
+	font-size: 17px;
+}
+#birthday{
+	background:#588053;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 300px;
+	margin-right: 300px;
+	border: 1px #588053;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: center;
+	font-family: OCR A Std, monospace;
+	font-size: 17px;
+}
+}
+form{
+	background:#588053;
 }
