@@ -66,3 +66,16 @@ h1{
 	font-family: OCR A Std, monospace;
 	font-size: 17px;
 }
+#phonenumber{
+	background:#588053;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 300px;
+	margin-right: 300px;
+	border: 1px #588053;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: center;
+	font-family: OCR A Std, monospace;
+	font-size: 17px;
+}
