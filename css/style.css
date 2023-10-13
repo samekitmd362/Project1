@@ -1,0 +1,25 @@
+/* Mobile styles */
+@media(max-width: 400px){
+html{
+	display: flex;
+	margin: 0;
+    position: absolute;
+}
+p{
+	justify-content: center;
+	text-align: center;
+}
+form{
+	background: white;
+	font-family: "consolas";
+	color:black;
+}
+}
+@media(max-width: 900px){
+html{
+	display: flex;
+	margin: 0;
+    position: absolute;
+	justify-content: center;
+	text-align: center;
+}
