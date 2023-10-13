@@ -102,12 +102,49 @@ h1{
 	font-family: OCR A Std, monospace;
 	font-size: 17px;
 }
-@media(max-width: 900px){
-/*html Styling*/
-html{
-	display: flex;
-	margin: 0;
-	position: absolute;
-	justify-content: center;
-	text-align: center;
+@media (min-width: 768px) {
+  body {
+    text-align: center;
+  }
+
+  h1{
+    font-size:30px;
+    width:auto;
+    padding: 20px;
+  }
+
+  p {
+    font-size:15px;
+    margin-top:10px;
+  }
+
+  form {
+    max-width:600px;
+    margin:0;
+    display: flex;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    text-align: center;
+  }
+
+
+  h1 {
+    font-size:40px;
+    width: 100%;
+    padding:20px;
+  }
+
+  p {
+    font-size:20px;
+    margin-top:10px;
+  }
+
+  form {
+    max-width:900px;
+    margin:0;
+    display:flex;
+  }
 }
