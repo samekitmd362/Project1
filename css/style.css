@@ -79,3 +79,26 @@ h1{
 	font-family: OCR A Std, monospace;
 	font-size: 17px;
 }
+#submitbutton{
+	padding: 10px;
+	text-align: center;
+	font-family: OCR A Std, monospace;
+	font-size: 20px;
+}
+#raccoon{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+#bear{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+#bear_text{
+	text-align: center;
+	font-family: OCR A Std, monospace;
+	font-size: 17px;
+}
